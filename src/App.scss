@@ -1,0 +1,24 @@
+.mainContainer{
+    display: flex;
+   flex-direction: row;
+   height: 20%;
+   width: 100%;
+
+
+}
+
+.heading{
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 50%;
+}
+.button{
+    display: flex;
+
+    justify-content:flex-start;
+    align-items: center;
+    height: 50%;
+    margin-top: 30px;
+    width: 20%;
+}
