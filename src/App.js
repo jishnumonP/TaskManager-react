@@ -70,7 +70,7 @@ setTasks([...tasks,newTask])
             padding: "10px",
           }}
         >
-          <Header title="The new task"  onAdd={()=>setShowAdd(!showAdd)}  showAdd={showAdd}/>
+          <Header title="My first note pad"  onAdd={()=>setShowAdd(!showAdd)}  showAdd={showAdd}/>
      {
       showAdd &&
       <AddTask onAddTask={addTask}/>
